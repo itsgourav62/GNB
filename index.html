@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Banking System</title>
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="https://scontent.fccu2-2.fna.fbcdn.net/v/t39.30808-6/307202289_392884009717896_5744849726286569217_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=CBzhaL7hRN8AX984ZYQ&_nc_ht=scontent.fccu2-2.fna&oh=00_AfAuGYw8PBF7Y-FVLRfHjaG2OV_SEOXi3x-3fNM9VvsRvg&oe=64C99F52" type="image/x-icon" />
+
+    <!-- AOS  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+
+</head>
+<body onload="loader()">
+
+  <!-- loader for splash screen -->
+  <div id="loading"></div>  
+
+    <!-- navbar starts here  -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="./index.html">Goliath National Bank</a>
+        <!--<img class="log_small" src="/assets/media/logo_small.svg" alt="Goliath National Bank" /> -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./consumer.html">Consumer</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+    <!-- navbar ends here  -->
+
+    <!-- here content starts here -->
+    <div class="container-fluid hero-content">
+      <div class="row align-items-center">
+        <div class="col-md-6 col-sm-12 text-center" data-aos="fade-up">
+          <h1>Money transaction</h1>
+          <p class="lead muted">Your Financial Wingman
+            Debit or credit? No worries - we got you, bro!
+            </p>
+          <p>Welcome</p>
+          <br>
+          <br>
+          <a class="get-started" href="./consumer.html">Get Started</a>
+        </div>
+        <div class="col-md-6 col-sm-12 text-center" data-aos="fade-left">
+          <div class="hero-img-div">
+            <img class="hero-img" src="https://media1.popsugar-assets.com/files/thumbor/HpBWkGT-6KaqCiNiiL2mgYqKU-0/fit-in/728xorig/filters:format_auto-!!-:strip_icc-!!-/2014/04/01/828/n/1922283/f613349e106a081f_tumblr_mirascWSBe1qj0hr7o4_500/i/Goliath-National-Bank.gif" 
+            alt="img-money-transfer">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- here content ends here -->
+
+    <!-- here content starts here -->   
+    <div class="container intro2">
+        <h3>Why choose Goliath National Bank when there are so many banks out there?</h3>
+          <p>Well, because banks aren't cool in general. They're boring, they don't look classy and they will never even try to be your bro. Will your regular bank be your wingman at the club every night? No! Will your bank ship awesome suits to your door every monday morning so that you can start your week as an awesome gentleman? No. So what are you waiting for? Suit up and open free account with Goliath National Bank now!</p>
+            <h3>So you're claiming you're a new type of bank?</h3>
+              <p>Yes. Goliath National bank TOTALLY IS a new and completely different type of bank. And we're not just different.We're LEGEN wait for it... DARY!!</p>
+    </div>
+    <!-- here content starts here -->
+
+    <!-- footer starts here -->
+    <footer>
+      <hr>
+      <div class="row text-center">
+        <div class="col-md-6">
+          <p>This project is made by Gourav.</p>
+          
+        </div>
+        <div class="col-md-6 text-center">
+            <ul class="social-icons">
+              Contact Me:
+              <li><a target="_blank" class="github" href="https://github.com/itsgourav62"><i class="fab fa-github fa-2x"></i></a></li>
+              
+              <li><a target="_blank" class="linkedin" href="https://www.linkedin.com/in/gouravshaw062/"><i class="fab fa-linkedin fa-2x"></i></a></li>   
+            </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- footer ends here -->
+
+    <!-- spalsh screen js -->
+    <script>
+      var preloader = document.getElementById("loading");
+      function loader(){
+        preloader.style.display = 'none';
+      }
+    </script>
+
+    <script src="assets/js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"></script>
+    <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js"></script>
+
+    <!-- aos data  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 700,
+      });
+    </script>
+    
+</body>
+</html>
